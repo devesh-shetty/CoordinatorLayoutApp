@@ -9,9 +9,9 @@ import android.util.AttributeSet;
 import android.widget.FrameLayout;
 
 /**
- * Created by deveshshetty on 29/04/17.
+ * FooterBarLayout is a wrapper container which contains a TextView acting as a footer
+ * A default behavior of {@link FooterLayoutBehavior} is attached to it.
  */
-
 @CoordinatorLayout.DefaultBehavior(FooterLayoutBehavior.class)
 public class FooterBarLayout extends FrameLayout {
   public FooterBarLayout(@NonNull Context context) {
